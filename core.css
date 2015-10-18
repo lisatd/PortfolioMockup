@@ -1,0 +1,96 @@
+body {
+    font-size: 20px;
+    background-color: #cdcdcd;
+    color: #313850;
+}
+
+#container {
+    margin: 50px;
+}
+
+#content hr {
+    border: 2px solid #a3525c;
+}
+
+#title-bar {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #313850;
+}
+
+#title-bar > .header {
+    font-size: 50px;
+    color: #416755;
+}
+
+#title-bar .glyphicon {
+    font-size: 400%;
+}
+
+.main-card {
+    text-align: center;
+}
+
+.main-card > img {
+    max-width: 100%;
+}
+
+.featured {
+    margin-top: 20px;
+}
+
+.featured > .header {
+    font-size: 30px;
+    margin: 10px;
+    color: #a3525c;
+}
+
+.featured .item {
+    text-align: center;
+    color: #313850;
+}
+
+.featured .item:hover,
+.featured .item:active,
+.featured .item:focus {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.featured .item > .header {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.featured .item > img {
+    width: 100%;
+}
+
+.featured .item > p {
+    word-wrap: break-word;
+}
+
+#sidebar .box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1000px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+#sidebar .blue {
+    background-color: #313850;
+}
+
+#sidebar .purple {
+    background-color: #a3525c;
+}
+
+#sidebar .green {
+    background-color: #416755;
+}
